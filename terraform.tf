@@ -3,13 +3,13 @@
 
 terraform {
 
-  cloud {
-    organization = "default-tf-org"
+  # cloud {
+  #   organization = "default-tf-org"
 
-    workspaces {
-      name = "learn-terraform"
-    }
-  }
+  #   workspaces {
+  #     name = "learn-terraform"
+  #   }
+  # }
 
   required_providers {
     aws = {
